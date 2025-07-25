@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../index.css" />
+    <title>Variación Porcentual</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="container-nav">
+          <li><a href="../index.html" class="btn btn-dark">Inicio</a></li>
+          <li><a href="#" class="btn btn-dark">Salir</a></li>
+        </ul>
+      </nav>
+      <h1 class="text-center">Calculo de Variación Porcentual</h1>
+    </header>
+    <main class="mt-5 ms-5">
+      <div class="container row fs-5">
+        <div class="cN w-100">
+          <label for="costoNuevo" class="bg-warning text-center fw-bold col-6 col-md-2 p-1">Costo Nuevo</label>
+          <input
+            type="number"
+            id="costoNuevo"
+            placeholder="Ingresar importe"
+            class="col-5 col-md-2 text-center p-1"
+          />
+        </div>
+        <div class="cA">
+          <label for="costoNuevo" class="bg-warning text-center fw-bold col-6 col-md-2 p-1">Costo Anterior</label>
+        <input
+          type="number"
+          id="costoAnterior"
+          placeholder="Ingresar importe"
+          class="col-5 col-md-2 text-center p-1"
+        />
+        </div>
+        <div class="calcula w-75 d-flex justify-content-start mt-2 mb-2">
+          <button
+          onclick="calcular()"
+          class="btn btn-dark fs-5"
+        >
+          Calcular
+        </button>
+        </div>
+        <div class="resulta">
+          <label for="variacionPorcentual" class="bg-warning text-center fw-bold col-12 col-md-3 p-1"
+          >La Variación Porcentual es de:
+        </label>
+        <input
+          type="text"
+          name="variacionPorcentual"
+          id="resultado"
+          readonly
+          class="col-6 col-md-1 text-center p-1"
+          placeholder="Resultado"
+        />
+        </div>
+        <div class="premisa mt-3">
+          <ul>
+            <li>Resultado (-) es buena opción de compra.</li>
+            <li>Resultado (+) significa que esta mas caro.</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="../java.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

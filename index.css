@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to right, #d53d3d 0%, #f0be19f0 100%);
+    font-family: "Oswald", sans-serif;
+}
+.container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+    padding: 50px;
+    gap: 30px;
+}
+h1 {
+    padding: 20px;
+    background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+    border-radius: 2.8rem;
+    filter: drop-shadow(0px 0px 3px #fff);
+}
+
+.containerSecciones a {
+    border: 1px solid black;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 90%;
+    height: 100px;
+    gap: 30px;
+    
+}
+.container-nav li {
+    list-style: none;
+}
+.container-nav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+}
