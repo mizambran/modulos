@@ -24,15 +24,15 @@
       <h1 class="text-center">Comparativa de precios</h1>
     </header>
     <main class="container mt-5">
-        <table class="table">
+        <table class="table" id="comparativaPrecios">
             <thead class="text-center">
                 <tr>
                     <th  class="bg-danger">Productos</th>
-                    <th class="scope bg-danger"><input type="text" placeholder="Proveedor 1"></th>
-                    <th class="scope bg-danger"><input type="text" placeholder="Proveedor 2"></th>
-                    <th class="scope bg-danger"><input type="text" placeholder="Proveedor 3"></th>
-                    <th class="scope bg-danger"><input type="text" placeholder="Proveedor 4"></th>
-                    <th class="scope bg-danger"><input type="text" placeholder="Proveedor 5"></th>
+                    <th class="scope bg-danger"><input type="text" placeholder="Proveedor 1" class="fw-bold"></th>
+                    <th class="scope bg-danger"><input type="text" placeholder="Proveedor 2" class="fw-bold"></th>
+                    <th class="scope bg-danger"><input type="text" placeholder="Proveedor 3" class="fw-bold"></th>
+                    <th class="scope bg-danger"><input type="text" placeholder="Proveedor 4" class="fw-bold"></th>
+                    <th class="scope bg-danger"><input type="text" placeholder="Proveedor 5" class="fw-bold"></th>
                     <th class="scope bg-danger">Precio más Bajo</th>
                     <th class="scope bg-danger">Proveedor</th>
                 </tr>
@@ -141,12 +141,16 @@
             </tbody>
         </table>
     </main>
+    <div class="recargar d-flex justify-content-center">
+        <a href="comparativaPrecios.html" class="btn btn-dark">Resetear</a>
+    </div>
     <footer>
       <div class="msj text-center mt-5">
         <h5>Desarrollado por Miguel Angel Zambrano</h5>
         <p>Todos los derechos reservados &copy;2025.</p>
       </div>
     </footer>
+    <script src="../gemini.js"></script>
     <script src="../java.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
