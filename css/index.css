@@ -47,3 +47,8 @@ h1 {
     font-size: 1.5rem;
     
 }
+
+/* comparativaPrecio */
+input {
+    text-align: center;
+}

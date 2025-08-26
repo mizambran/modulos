@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="shortcut icon" href="../assets/icon/shopping-cart_3394009.png" type="image/x-icon">
+    <title>Comparativa de Precios</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="container-nav">
+          <li><a href="../index.html" class="btn btn-dark">Inicio</a></li>
+          <li><a href="../index.html" class="btn btn-dark">Salir</a></li>
+        </ul>
+      </nav>
+      <h1 class="text-center">Comparativa de precios</h1>
+    </header>
+    <main class="container mt-5">
+        <button id="addProductoBtn" class="btn btn-primary  mb-3">Añadir Producto</button> <table class="table" id="comparativaPrecios">
+            <thead class="text-center">
+                <tr>
+                    <th  class="bg-danger fs-5">PRODUCTOS</th>
+                    <th class="scope bg-danger fs-5"><input type="text" placeholder="Proveedor 1" class="fw-bold"></th>
+                    <th class="scope bg-danger fs-5"><input type="text" placeholder="Proveedor 2" class="fw-bold"></th>
+                    <th class="scope bg-danger fs-5"><input type="text" placeholder="Proveedor 3" class="fw-bold"></th>
+                    <th class="scope bg-danger fs-5"><input type="text" placeholder="Proveedor 4" class="fw-bold"></th>
+                    <th class="scope bg-danger fs-5">MEJOR PRECIO</th>
+                    <th class="scope bg-danger fs-5">PROVEEDOR</th>
+                    <th class="scope bg-danger fs-5">ACCIÓN</th>
+                 </tr>
+            </thead>
+            <tbody class="text-center" id="tbodyPrecios">
+                <tr>
+                    <th><input type="text" placeholder="Producto 1"></th>
+                    <td><input type="number" placeholder="Precio"></td>
+                    <td><input type="number" placeholder="Precio"></td>
+                    <td><input type="number" placeholder="Precio"></td>
+                    <td><input type="number" placeholder="Precio"></td>
+                    <td></td>
+                    <td></td>
+                    <td><button class="btn btn-danger btn-sm delete-row-btn">Eliminar</button></td> </tr>
+            </tbody>
+        </table>
+    </main>
+    <div class="recargar d-flex justify-content-center">
+        <a href="comparativaPrecios.html" class="btn btn-dark fs-4">Restablecer</a>
+    </div>
+    <footer>
+      <div class="msj text-center mt-5">
+        <h5>Desarrollado por Miguel Angel Zambrano</h5>
+        <p>Todos los derechos reservados &copy;2025.</p>
+      </div>
+    </footer>
+    <script src="comparativaMejorada.js"></script>
+    <!-- <script src="../gemini.js"></script> -->
+    <script src="../java.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
