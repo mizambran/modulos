@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-KEMWL52W2Y"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-KEMWL52W2Y");
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -9,8 +23,17 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+<<<<<<< HEAD
+    <link rel="stylesheet" href="../index.css" />
+    <link
+      rel="shortcut icon"
+      href="../assets/icon/shopping-cart_3394009.png"
+      type="image/x-icon"
+    />
+=======
     <link rel="stylesheet" href="../css/index.css" />
     <link rel="shortcut icon" href="../assets/icon/shopping-cart_3394009.png" type="image/x-icon">
+>>>>>>> 2c3537e714930c754a91db2cb6c613d4af8aaf13
     <title>Variación Porcentual</title>
   </head>
   <body>
@@ -34,7 +57,11 @@
           class="col-5 col-md-2 text-center p-1"
         />
         <div class="cN w-100">
-          <label for="costoNuevo" class="bg-warning text-center fw-bold col-6 col-md-2 p-1">Costo Nuevo</label>
+          <label
+            for="costoNuevo"
+            class="bg-warning text-center fw-bold col-6 col-md-2 p-1"
+            >Costo Nuevo</label
+          >
           <input
             type="number"
             id="costoNuevo"
@@ -42,32 +69,48 @@
             class="col-5 col-md-2 text-center p-1"
           />
         </div>
+<<<<<<< HEAD
+        <div class="cA">
+          <label
+            for="costoNuevo"
+            class="bg-warning text-center fw-bold col-6 col-md-2 p-1"
+            >Costo Anterior</label
+          >
+          <input
+            type="number"
+            id="costoAnterior"
+            placeholder="Ingresar importe"
+            class="col-5 col-md-2 text-center p-1"
+          />
+=======
+>>>>>>> 2c3537e714930c754a91db2cb6c613d4af8aaf13
         </div>
-        <div class="containerBotones w-75 d-flex justify-content-start mt-2 mb-2 gap-2">
-          <div class="calcula">
-          <button
-          onclick="calcular()"
-          class="btn btn-dark fs-5"
+        <div
+          class="containerBotones w-75 d-flex justify-content-start mt-2 mb-2 gap-2"
         >
-          Calcular
-        </button>
-        </div>
-        <div class="reset">
-        <a href="varPorcentual.html" class="btn btn-dark fs-5">Resetear</a>
-        </div>
+          <div class="calcula">
+            <button onclick="calcular()" class="btn btn-dark fs-5">
+              Calcular
+            </button>
+          </div>
+          <div class="reset">
+            <a href="varPorcentual.html" class="btn btn-dark fs-5">Resetear</a>
+          </div>
         </div>
         <div class="resulta">
-          <label for="variacionPorcentual" class="bg-warning text-center fw-bold col-12 col-md-3 p-1"
-          >La Variación Porcentual es de:
-        </label>
-        <input
-          type="text"
-          name="variacionPorcentual"
-          id="resultado"
-          readonly
-          class="col-6 col-md-1 text-center p-1"
-          placeholder="Resultado"
-        />
+          <label
+            for="variacionPorcentual"
+            class="bg-warning text-center fw-bold col-12 col-md-3 p-1"
+            >La Variación Porcentual es de:
+          </label>
+          <input
+            type="text"
+            name="variacionPorcentual"
+            id="resultado"
+            readonly
+            class="col-6 col-md-1 text-center p-1"
+            placeholder="Resultado"
+          />
         </div>
         <div class="premisa mt-3">
           <ul>
