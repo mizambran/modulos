@@ -1,31 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-KEMWL52W2Y"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-KEMWL52W2Y");
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="index.css" />
-    <link rel="shortcut icon" href="assets/icon/shopping-cart_3394009.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="assets/icon/shopping-cart_3394009.png"
+      type="image/x-icon"
+    />
     <title>Compras</title>
   </head>
   <body>
     <header>
-        <nav>
-            <ul class="container-nav">
-                <li><a href="index.html" class="btn btn-dark">Inicio</a></li>
-                <li><a href="#" class="btn btn-dark">Salir</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul class="container-nav">
+          <li><a href="index.html" class="btn btn-dark">Inicio</a></li>
+          <li><a href="#" class="btn btn-dark">Salir</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <div class="container-main">
         <h1>Modulo de Compras</h1>
         <div class="containerSecciones d-flex gap-4">
           <div class="varPorcentual">
-            <a href="pages/varPorcentual.html" class="btn btn-warning"><h5>Variación %</h5></a>
+            <a href="pages/varPorcentual.html" class="btn btn-warning"
+              ><h5>Variación %</h5></a
+            >
           </div>
           <div class="compararPrecio">
-            <a href="pages/comparativaPrecios.html" class="btn btn-warning"><h5>Comparar Precios</h5></a>
+            <a href="pages/comparativaPrecios.html" class="btn btn-warning"
+              ><h5>Comparar Precios</h5></a
+            >
           </div>
         </div>
       </div>
@@ -36,6 +63,10 @@
         <p>Todos los derechos reservados &copy;2025.</p>
       </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
